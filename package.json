@@ -1,0 +1,20 @@
+{
+  "name": "sentinel-hybrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "dev-htc",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6",
+    "open-terminal": "^0.1.11",
+    "redis": "^4.1.0"
+  }
+}
